@@ -1,0 +1,28 @@
+# Local configuration & secrets
+config.php
+.env
+
+# User-uploaded content (runtime data, not source)
+admin/images/*
+!admin/images/.gitkeep
+employee/images/*
+!employee/images/.gitkeep
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*~
+~$*
+*.swp
+.idea/
+.vscode/
+
+# Word lock/temp files
+~$*.docx
+
+# Logs
+*.log
+
+# Dependency dirs (if you later switch to composer/npm)
+/vendor/
+/node_modules/
